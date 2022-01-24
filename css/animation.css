@@ -1,0 +1,56 @@
+.div-one {
+    height: 300px;
+    width: 600px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 150px;
+    animation-name: bitm;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes bitm {
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: red;
+        height: 400px;
+        width: 500px;
+    }
+    50%{
+        background-color: aqua;
+        height: 500px;
+        width: 700px;
+    }
+    75%{
+        background-color: black;
+        height: 300px;
+        width: 300px;
+    }
+    100%{
+        background-color: blue;
+    }
+
+}
+
+/*@keyframes bitm {*/
+/*    0%{*/
+/*        background-color: black;*/
+/*    }*/
+/*    50%{*/
+/*        background-color: green;*/
+/*    }*/
+/*    100%{*/
+/*        background-color: red;*/
+/*    }*/
+/*}*/
+
+/*@keyframes bitm {*/
+/*    from {*/
+/*        background-color: black;*/
+/*    }*/
+/*    to {*/
+/*        background-color: red;*/
+/*    }*/
+/*}*/
